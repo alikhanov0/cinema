@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: cinema-booking
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinema
+    username: postgres
+    password: minato04
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
