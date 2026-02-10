@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinema
+    username: your_username
+    password: your_password
